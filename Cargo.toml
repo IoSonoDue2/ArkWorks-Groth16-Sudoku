@@ -1,0 +1,16 @@
+[package]
+name = "arkworks-groth16-sudoku"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ark-ff = { version = "0.4" }
+ark-r1cs-std = { version = "0.4" }
+ark-snark = { version = "0.4" }
+ark-relations = { version = "0.4" }
+ark-bls12-377 = "0.4"
+ark-groth16 = "0.4"
+ark-serialize = "0.4"
+rand = "0.8"
+[dev-dependencies]
+itertools = "0.10.1"
